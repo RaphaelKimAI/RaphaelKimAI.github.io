@@ -1,4 +1,48 @@
 header:
+
+  - titles: Home
+      # @start locale config
+      en      : &EN       Home
+      ko      : &KO       홈
+      # @end locale config
+    url: /Home.html
+
+  - titles: AIStudy
+      # @start locale config
+      en      : &EN       AIStudy
+      ko      : &KO       AI연구
+      # @end locale config
+    url: /AIStudy.html
+
+  - titles: References
+      # @start locale config
+      en      : &EN       References
+      ko      : &KO       참고자료
+      # @end locale config
+    url: /References.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      ko      : &KO       아카이브
+      # @end locale config
+    url: /archive.html
+
+  - titles: About
+      # @start locale config
+      en      : &EN       About
+      ko      : &KO       소개
+      # @end locale config
+    url: /about.html
+
+   - titles: GitHub
+       # @start locale config
+       en      : &EN       GitHub
+       ko      : &KO       깃헙
+       # @end locale config
+     url: /GitHub.html
+
+/*
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -48,3 +92,5 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+*/
