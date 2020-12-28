@@ -34,9 +34,9 @@ timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_tim
 ## => Author and Social
 ##############################
 author:
-  type      : person # "person" (default), "organization"
+  type      : # "person" (default), "organization"
   name      : Raphael Kim
-  url       : 
+  url       :
   avatar    : /assets/images/Einstein.jpg # path or url of avatar image (square)
   bio       : I am an financial data analysist.
   email     : RaphaelKimAI@gmail.com
