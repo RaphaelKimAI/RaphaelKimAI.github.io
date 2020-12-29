@@ -1,6 +1,11 @@
 ---
-layout: articles
-titles:
+layout: article
+title: Page - Sidebar
+aside:
+  toc: true
+sidebar:
+  nav: layouts
+
   # @start locale config
   en      : &EN       Home
   en-GB   : *EN
@@ -31,6 +36,8 @@ articles:
   show_excerpt: true
   show_readmore: true
   show_info: true
+
+
 ---
 <div class="layout--home">
   {%- include paginator.html -%}
