@@ -1,75 +1,105 @@
+
 header:
-  - title:      Home
-    url:        /test/
-  - title:      AIStudy
-    url:        /AIStudy/en/quick-start
-    key:        AIStudy
-  - title:      References
-    url:        /References.html
-    key:        references
-  - title:      Archive
-    url:        /archive.html
-  - title:      About
-    url:        /about.html
-  - title:      GitHub
-    url:        https://github.com/RaphaelKimAI/RaphaelKimAI.github.io
+  - titles: Home
+      # @start locale config
+      en      : &EN       Home
+      ko      : &KO       홈
+      # @end locale config
+    url: /Home.html
+
+  - titles: AIStudy
+      # @start locale config
+      en      : &EN       AIStudy
+      ko      : &KO       AI연구
+      # @end locale config
+    url: /AIStudy.html
+
+  - titles: References
+      # @start locale config
+      en      : &EN       References
+      ko      : &KO       참고자료
+      # @end locale config
+    url: /References.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      ko      : &KO       아카이브
+      # @end locale config
+    url: /archive.html
+
+  - titles: About
+      # @start locale config
+      en      : &EN       About
+      ko      : &KO       소개
+      # @end locale config
+    url: /about.html
+
+   - titles: GitHub
+       # @start locale config
+       en      : &EN       GitHub
+       ko      : &KO       깃헙
+       # @end locale config
+     url: https://github.com/RaphaelKimAI/RaphaelKimAI.github.io
+
+
 
 AIStudy-en:
   - title:      Start
     children:
       - title:  Quick Start
-        url:    /AIStudy/en/quick-start
+        url:    /_AIStudy/en/quick-start
       - title:  Structure
-        url:    /AIStudy/en/structure
+        url:    /_AIStudy/en/structure
       - title:  Update from 1.x to 2.x
-        url:    /AIStudy/en/update-from-1-to-2
+        url:    /_AIStudy/en/update-from-1-to-2
   - title:      Customization
     children:
       - title:  Configuration
-        url:    /AIStudy/en/configuration
+        url:    /_AIStudy/en/configuration
       - title:  Navigation
-        url:    /AIStudy/en/navigation
+        url:    /_AIStudy/en/navigation
       - title:  Layouts
-        url:    /AIStudy/en/layouts
+        url:    /_AIStudy/en/layouts
       - title:  Logo and Favicon
-        url:    /AIStudy/en/logo-and-favicon
+        url:    /_AIStudy/en/logo-and-favicon
       - title:  Authors
-        url:    /AIStudy/en/authors
+        url:    /_AIStudy/en/authors
       - title:  Internationalization
-        url:    /AIStudy/en/i18n
+        url:    /_AIStudy/en/i18n
   - title:      Content
     children:
       - title:  Writing Posts
-        url:    /AIStudy/en/writing-posts
+        url:    /_AIStudy/en/writing-posts
       - title:  Additional Styles
-        url:    /AIStudy/en/additional-styles
+        url:    /_AIStudy/en/additional-styles
       - title:  Extensions
-        url:    /AIStudy/en/extensions
+        url:    /_AIStudy/en/extensions
       - title:  Markdown Enhancements
-        url:    /AIStudy/en/markdown-enhancements
+        url:    /_AIStudy/en/markdown-enhancements
   - title:      Extra
     children:
       - title:  Spacing
-        url:    /docs/en/spacing
+        url:    /_AIStudy/en/spacing
       - title:  Grid
-        url:    /AIStudy/en/grid
+        url:    /_AIStudy/en/grid
       - title:  Icons
-        url:    /AIStudy/en/icons
+        url:    /_AIStudy/en/icons
       - title:  Image
-        url:    /AIStudy/en/image
+        url:    /_AIStudy/en/image
       - title:  Button
-        url:    /AIStudy/en/button
+        url:    /_AIStudy/en/button
       - title:  Item
-        url:    /AIStudy/en/item
+        url:    /_AIStudy/en/item
       - title:  Card
-        url:    /AIStudy/en/card
+        url:    /_AIStudy/en/card
       - title:  Hero
-        url:    /AIStudy/en/hero
+        url:    /_AIStudy/en/hero
       - title:  Swiper
-        url:    /AIStudy/en/swiper
+        url:    /_AIStudy/en/swiper
   - title:      Languages
     children:
-      - title:  中文
+      - title:  KO
         url:    /AIStudy/ko/quick-start
 
 
