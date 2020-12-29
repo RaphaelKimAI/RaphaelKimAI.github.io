@@ -14,7 +14,7 @@ header:
   - title:      GitHub
     url:        https://github.com/RaphaelKimAI/RaphaelKimAI.github.io
 
-docs-en:
+AIStudy-en:
   - title:      Start
     children:
       - title:  Quick Start
@@ -73,7 +73,7 @@ docs-en:
         url:    /AIStudy/ko/quick-start
 
 
-docs-ko:
+AIStudy-ko:
   - title:      开始
     children:
       - title:  快速开始
