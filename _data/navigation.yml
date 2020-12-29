@@ -40,3 +40,29 @@ header:
        ko      : &KO       깃헙
        # @end locale config
      url: /GitHub.html
+
+
+sidebar:
+  nav: AIStudy-en
+
+AIStudy-en:
+  - title:      Start
+    children:
+      - title:  Quick Start
+        url:    /AIStudy/en/quick-start
+      - title:  Structure
+        url:    /AIStudy/en/structure
+
+  - title:      Customization
+    children:
+      - title:  Configuration
+        url:    /AIStudy/en/configuration
+      - title:  Navigation
+        url:    /AIStudy/en/navigation
+
+  - title:      Contents
+    children:
+      - title:  Contents
+        url:    /AIStudy/en/contents
+      - title:  Structure
+        url:    /AIStudy/en/contents
