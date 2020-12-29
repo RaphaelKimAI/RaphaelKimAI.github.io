@@ -200,7 +200,7 @@ exclude:
   # - /screenshots
   # - /test
   - /vendor
-  - /_posts
+  # - /_posts
   - /index.html
 
 collections_dir: AIStudy
